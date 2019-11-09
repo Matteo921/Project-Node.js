@@ -1,0 +1,26 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "Plik testowy package.json do nauki npm'a",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "nauka",
+    "npm",
+    "node"
+  ],
+  "author": "Mateusz",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "file-system": "^2.2.2",
+    "formidable": "^1.2.1",
+    "http-node": "^1.2.0",
+    "stat-mode": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
